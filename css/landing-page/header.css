@@ -1,0 +1,124 @@
+header {
+  padding: 30px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header a {
+  color: #4945bf;
+  text-decoration: none;
+}
+header .logo {
+  display: block;
+  float: left;
+  margin-right: 28px;
+}
+header .container-fluid .logo .fa-magento {
+  width: 40px;
+  font-size: 3.5rem;
+  color: #f2913d;
+  left: 50px;
+}
+header .menu {
+  display: block;
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a {
+  text-transform: uppercase;
+  padding: 9px;
+}
+header .header-buttons {
+  display: block;
+  float: right;
+}
+header .header-buttons .blue-btn {
+  background: #615cf2;
+  padding: 14px 46px;
+  margin-right: 30px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+header .header-buttons .blue-btn .fa-solid {
+  margin-left: 10px;
+}
+header .header-buttons .orange-btn {
+  background: #f2913d;
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+/* Laptops */
+@media only screen and (max-width: 1215px) {
+}
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+  header {
+    width: 100%;
+    position: relative;
+  }
+  header .header-buttons .blue-btn {
+    font-size: 1.5rem;
+    right: -20px;
+    top: 20px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  header .header-buttons .orange-btn {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    right: -20px;
+    top: 20px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  header .container-fluid .logo .fa-magento {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .menu a {
+    /* display: inline-block; */
+    font-size: 1.5rem;
+  }
+  header .header-buttons {
+    display: none;
+  }
+}
+/* small Mobile */
+@media only screen and (max-width: 500px) {
+  header .container-fluid .logo .fa-magento {
+    display: none;
+  }
+  header .menu a {
+    font-size: 0.71rem;
+  }
+  header .header-buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,75 @@
+footer {
+  background: #615cf2;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+footer h2 span {
+  font-weight: 700;
+  color: #f2913d;
+}
+footer .menu {
+  margin-bottom: 20px;
+}
+footer .menu li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+footer .menu a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+footer p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+footer .socials li {
+  display: inline-block;
+  padding: 0 10px;
+}
+footer .socials li a {
+  color: #dec9f2;
+  font-size: 2rem;
+  opacity: 0.2;
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  footer h2 {
+    font-size: 2.5rem;
+  }
+  footer .menu a {
+    display: block;
+    font-size: 1rem;
+  }
+}
+/* Small Mobile */
+@media only screen and (max-width: 562px) {
+  footer h2 {
+    font-size: 2rem;
+  }
+  footer .menu a {
+    display: block;
+    font-size: 0.9rem;
+  }
+}
+/* Iphone 6 & similar */
+@media only screen and (max-width: 481px) {
+  footer h2 {
+    font-size: 1.7rem;
+  }
+  footer .menu a {
+    display: block;
+    font-size: 0.6rem;
+  }
+}
